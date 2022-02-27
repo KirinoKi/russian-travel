@@ -4,6 +4,8 @@
   grid-template-columns: minmax(440px, 460px) minmax(426px, 484px);
   gap: 48px 40px;
   margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
   
 .place:last-of-type {
@@ -17,13 +19,13 @@
 }
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: minmax(290px, 340px) minmax(268px, 352px);
-    gap: 48px 28px;  
+grid-template-columns: minmax(290px, 340px) minmax(268px, 352px);
+    gap: 48px 28px;
   }
 }
-@media screen and (max-width: 679px) {
+@media screen and (max-width: 320px) {
   .place {
     grid-template-columns: 1fr;
-    row-gap: 32px;
+    row-gap: 32px; 
   }
 }
