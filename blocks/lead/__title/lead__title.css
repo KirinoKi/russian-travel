@@ -8,6 +8,7 @@
   margin: 0;
   font-weight: bold;
 }
+
 @media screen and (max-width: 320px) {
   .lead__title {
     max-width: 288px;
@@ -16,3 +17,12 @@
     line-height: 1.1;
   }
 }
+
+margin: 0;
+    font-weight: 900;
+    font-style: black;
+    font-size: 96px;
+    line-height: 93px;
+    text-align: center;
+    width: 773px;
+    margin: auto;
