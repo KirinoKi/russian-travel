@@ -11,6 +11,7 @@
 .place:last-of-type {
   margin-bottom: 0;
 }
+
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: minmax(310px, 440px) minmax(322px, 456px);

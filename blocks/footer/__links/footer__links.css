@@ -7,12 +7,6 @@
     padding: 0;
     vertical-align: middle;
 }
-  
-@media screen and (max-width: 1024px) {
-    .footer__links { 
-
-    }
-}
 @media screen and (max-width: 768px) {
     .footer__links {  
         flex-direction: column;
