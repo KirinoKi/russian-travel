@@ -1,4 +1,5 @@
 /* в cover__link прописано затемнение картинки, которое при наведении увеличивается. Не совсем понимаю целесообразность применения предложенного вами псевдокласса*/
+
 .cover {
     max-width: 1184px;
     max-height: 740px;
@@ -6,7 +7,7 @@
     margin-top: 92px;
     Display: flex;
     flex-wrap: wrap;
-    background: url(../../images/cover-trains.jpg) no-repeat; 
+    background: url(../../images/cover-trains.jpg) no-repeat;
     z-index: 1;
     background-size: cover;
 }
@@ -17,15 +18,17 @@
         min-height: 640px;
     }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .cover {
         min-width: 768px;
         min-height: 480px;
     }
 }
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .cover {
-       max-width: 100%;
-       min-height: 200px;
+        max-width: 100%;
+        min-height: 200px;
     }
 }
