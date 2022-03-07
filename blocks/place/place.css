@@ -12,19 +12,19 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place {
     grid-template-columns: minmax(310px, 440px) minmax(322px, 456px);
     gap: 48px 32px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
-  grid-template-columns: minmax(290px, 340px) minmax(268px, 352px);
+    grid-template-columns: minmax(290px, 340px) minmax(268px, 352px);
     gap: 48px 28px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .place {
     grid-template-columns: 1fr;
     row-gap: 32px; 
