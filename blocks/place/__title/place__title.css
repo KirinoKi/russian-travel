@@ -2,7 +2,7 @@
   max-width: 460px;
   font-weight: 900;
   font-size: 72px;
-  line-height: 1.05;
+  line-height: 76px;
   color: #FFFFFF;
   margin: 0;
 }
@@ -10,8 +10,6 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place__title {
       min-width: 440px;
-      font-size: 72px;
-      line-height: 76px;
   }
 }
 
