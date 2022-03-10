@@ -3,8 +3,8 @@
 .cover {
     max-width: 1184px;
     max-height: 740px;
-    margin: 0;
-    Display: flex;
+    margin: 0 auto;
+    display: flex;
     flex-wrap: wrap;
     background: url(../../images/cover-trains.jpg) no-repeat;
     z-index: 1;
@@ -16,7 +16,6 @@
     .cover {
         max-width: 100%;
         min-height: 640px;
-        
     }
 }
 
